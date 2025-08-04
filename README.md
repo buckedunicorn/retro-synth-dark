@@ -77,11 +77,31 @@ Unlike other synthwave themes that require complex setup, Retro Synth Dark gives
 
 **No complex setup. Standard VS Code installation. Just pure cyberpunk coding bliss:**
 
-```bash
-# Option 1: VS Code Marketplace (Recommended)
-1. Open VS Code Extensions (Ctrl+Shift+X)
+### Option 1: VS Code Marketplace (Recommended)
+1. Open VS Code Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)
 2. Search "Retro Synth Dark"
 3. Click Install
+4. Select theme: `Ctrl+Shift+P` (or `Cmd+Shift+P`) → "Preferences: Color Theme" → "Retro Synth Dark"
+
+### Option 2: Command Palette
+1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
+2. Type "Preferences: Color Theme"
+3. Select "Retro Synth Dark"
+
+### Option 3: VSIX File (Manual Install)
+1. Download the `.vsix` file from [GitHub Releases](https://github.com/BuckedUnicorn/retro-synth-dark/releases)
+2. Open VS Code
+3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P`)
+4. Type "Extensions: Install from VSIX..."
+5. Select the downloaded `.vsix` file
+
+**🎨 Complete the Look:**
+1. Set the recommended file icons:
+   - `Ctrl+Shift+P` (or `Cmd+Shift+P`) → "Preferences: File Icon Theme" → "Sweet VSCode Icons" (by [EliverLara](https://github.com/EliverLara))
+2. Choose a synthwave font from our recommendations below
+
+**🎉 That's it!** You're now coding in the cyberpunk future.
+
 
 ## 🎨 Pro Customization
 
@@ -134,12 +154,12 @@ Take your cyberpunk setup to the next level:
 
 > **Want your file explorer to look as neon as your code?**
 >
-> **[Sweet VSCode Icons](https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode-icons)** – The perfect match for Retro Synth Dark! Vibrant, colorful, and totally cyberpunk.
+> **[Sweet VSCode Icons](https://marketplace.visualstudio.com/items?itemName=EliverLara.sweet-vscode-icons)** by [EliverLara](https://github.com/EliverLara) – The perfect match for Retro Synth Dark! Vibrant, colorful, and totally cyberpunk.
 
 **How to set the icon theme:**
 1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`)
 2. Type `Preferences: File Icon Theme`
-3. Select `Sweet VSCode Icons`
+3. Select `Sweet VSCode Icons` (by EliverLara)
 
 <br/>
 
@@ -152,7 +172,7 @@ Take your cyberpunk setup to the next level:
 - 💡 **Have ideas?** [Start a discussion](https://github.com/BuckedUnicorn/retro-synth-dark/discussions)  
 - ⭐ **Star the repo** to show your support
 - 🐦 **Share on Twitter** with [@BuckedUnicorn](https://x.com/BuckedUnicorn)
-- 🔀 **Fork & PR** to contribute code
+- 🔀 **Fork & PR** to contribute code - see our [Contributing Guide](CONTRIBUTING.md)
 - 💬 **Join our Discord!** [Click here to chat & connect](https://discord.gg/KnkFg3aca8)
 
 <p align="center">
@@ -190,7 +210,7 @@ Take your cyberpunk setup to the next level:
 ---
 
 <p align="center">
-  <strong>🌈✨ Code like it's 2085 - safely! ✨�</strong><br/>
+  <strong>🌈✨ Code like it's 2085 - safely! ✨🧬</strong><br/>
   <sub>🎮 Crafted with cyberpunk love by <a href="https://github.com/BuckedUnicorn">@BuckedUnicorn</a> 🎮</sub><br/>
   <sub>⚡ No admin rights harmed in the making of this theme ⚡</sub>
 </p>
