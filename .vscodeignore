@@ -1,0 +1,15 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+.editorconfig
+screens/**
+.github/**
+.git/**
+vsc-extension-quickstart.md
+node_modules/**
+.vscodeignore
+.local/**
+.github/**
+.git/**
+package-lock.json
+*.vsix
