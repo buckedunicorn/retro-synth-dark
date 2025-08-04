@@ -1,0 +1,71 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "lint",
+			"group": "test",
+			"label": "npm: lint",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "lint:json",
+			"group": "test",
+			"label": "npm: lint:json",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "lint:manifest",
+			"group": "test",
+			"label": "npm: lint:manifest",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "package",
+			"group": "build",
+			"label": "npm: package",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "publish",
+			"group": "build",
+			"label": "npm: publish",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		},
+		{
+			"type": "npm",
+			"script": "release",
+			"group": "build",
+			"label": "npm: release",
+			"presentation": {
+				"panel": "dedicated",
+				"reveal": "always"
+			},
+			"problemMatcher": []
+		}
+	]
+}
