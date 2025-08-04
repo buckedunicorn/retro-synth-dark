@@ -1,0 +1,76 @@
+{
+	"name": "retro-synth-dark",
+	"displayName": "🧬 Retro Synth Dark 🧬",
+	"description": "⚡ Dark Retro Theme w/Electric 80's Vibes! 🎮",
+	"version": "1.0.0",
+	"author": "BuckedUnicorn",
+	"publisher": "BuckedUnicorn",
+	"icon": "assets/icon.webp",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "sponsor": {
+    "url": "https://github.com/sponsors/BuckedUnicorn"
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BuckedUnicorn/retro-synth-dark"
+	},
+	"engines": {
+		"vscode": "^1.102.0"
+	},
+	"keywords": [
+		"retro",
+		"synthwave",
+		"cyberpunk",
+		"neon",
+		"80s",
+		"vaporwave",
+		"fluoromachine",
+		"purple",
+		"cyan",
+		"magenta",
+		"safe",
+		"secure",
+		"no-admin",
+		"theme",
+		"dark",
+		"git-colors",
+		"high-contrast",
+    "electric",
+    "visual-studio-code",
+    "vscode-theme",
+    "synth"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Retro Synth Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-dark.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/BuckedUnicorn/retro-synth-dark",
+	"bugs": {
+		"url": "https://github.com/BuckedUnicorn/retro-synth-dark/issues"
+	},
+	"license": "MIT",
+	"scripts": {
+		"lint": "npm run lint:json && npm run lint:manifest",
+		"lint:json": "npx jsonlint package.json && npx jsonlint themes/*.json",
+		"lint:manifest": "node scripts/validate-manifest.js",
+		"package": "vsce package",
+		"publish": "vsce publish",
+		"release": "node scripts/release.js",
+		"prepack": "npm run lint"
+	},
+	"devDependencies": {
+		"vsce": "^2.15.0"
+	}
+}
