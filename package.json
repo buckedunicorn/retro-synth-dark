@@ -2,7 +2,7 @@
 	"name": "retro-synth-dark",
 	"displayName": "🧬 Retro Synth Dark 🧬",
 	"description": "⚡ Dark Retro Theme w/Electric 80's Vibes! 🎮",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"author": "BuckedUnicorn",
 	"publisher": "BuckedUnicorn",
 	"icon": "assets/icon.webp",
@@ -53,6 +53,11 @@
 				"label": "Retro Synth Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/retro-synth-dark.json"
+			},
+			{
+				"label": "Retro Synth Cyan",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-cyan.json"
 			}
 		]
 	},
