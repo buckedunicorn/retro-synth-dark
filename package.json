@@ -1,18 +1,18 @@
 {
 	"name": "retro-synth-dark",
 	"displayName": "🧬 Retro Synth Dark 🧬",
-	"description": "⚡ Dark Retro Theme w/Electric 80's Vibes! 🎮",
+	"description": "⚡ Dark Retro Theme Suite - 4 Scientifically-Designed Synthwave Variants! 🎮",
 	"version": "1.1.0",
 	"author": "BuckedUnicorn",
 	"publisher": "BuckedUnicorn",
 	"icon": "assets/icon.webp",
   "galleryBanner": {
-    "color": "#000000",
-    "theme": "dark"
+	"color": "#000000",
+	"theme": "dark"
   },
   "pricing": "Free",
   "sponsor": {
-    "url": "https://github.com/sponsors/BuckedUnicorn"
+	"url": "https://github.com/sponsors/BuckedUnicorn"
   },
 	"repository": {
 		"type": "git",
@@ -39,10 +39,17 @@
 		"dark",
 		"git-colors",
 		"high-contrast",
-    "electric",
-    "visual-studio-code",
-    "vscode-theme",
-    "synth"
+		"electric",
+		"visual-studio-code",
+		"vscode-theme",
+		"synth",
+		"sunset",
+		"midnight",
+		"matrix",
+		"eye-strain",
+		"accessibility",
+		"semantic-tokens",
+		"developer-experience"
 	],
 	"categories": [
 		"Themes"
@@ -58,6 +65,21 @@
 				"label": "Retro Synth Cyan",
 				"uiTheme": "vs-dark",
 				"path": "./themes/retro-synth-cyan.json"
+			}
+		   ,{
+				"label": "Retro Synth Sunset",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-sunset.json"
+			},
+			{
+				"label": "Retro Synth Midnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-midnight.json"
+			},
+			{
+				"label": "Retro Synth Matrix",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-matrix.json"
 			}
 		]
 	},
