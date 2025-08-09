@@ -170,7 +170,7 @@
     "notificationLink.foreground": "#00ffff",
     "notificationsErrorIcon.foreground": "#ff0000",
     "notificationsWarningIcon.foreground": "#ffff00",
-    "notificationsInfoIcon.foreground": "#00ffff",
+    "notificationsInfoIcon.foreground": "#00ffff"
   },
   "tokenColors": [
     {
@@ -465,10 +465,10 @@
     {
       "name": "TypeScript Types",
       "scope": [
-        "entity.name.type.ts", 
-        "entity.name.type.tsx", 
-        "support.type.primitive.ts", 
-        "support.type.primitive.tsx", 
+        "entity.name.type.ts",
+        "entity.name.type.tsx",
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
         "entity.name.type.alias.ts",
         "entity.name.type.alias.tsx"
       ],
