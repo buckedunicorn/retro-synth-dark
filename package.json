@@ -80,6 +80,11 @@
 				"label": "Retro Synth Matrix",
 				"uiTheme": "vs-dark",
 				"path": "./themes/retro-synth-matrix.json"
+			},
+			{
+				"label": "Retro Synth Market Monkey Heatmap",
+				"uiTheme": "vs-dark",
+				"path": "./themes/retro-synth-market-monkey-heatmap.json"
 			}
 		]
 	},
